@@ -3,7 +3,7 @@ package Practica8;
  Заменить все отрицательные элементы модулем этого числа,
   а положительные заменить на отрицательное
   */
-import com.sun.org.apache.xpath.internal.SourceTree;
+
 
 import java.util.ArrayList;
 import java.util.Random;
