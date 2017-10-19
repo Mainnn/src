@@ -1,6 +1,6 @@
 package Practica9;
-import java.io.*;
-import java.util.*;
+        import java.io.*;
+        import java.util.*;
 public class To4noTak {
     public static void main(String arg[])throws Exception{
         FileReader RD=new FileReader("mane12.txt");
@@ -11,16 +11,23 @@ public class To4noTak {
         System.out.println("В ведите s2");
         Scanner scn = new Scanner(RD);
         final int H=s.nextInt();
+
         while (scn.hasNextLine()){
 
 
 
             String str = scn.nextLine();
 
-            System.out.print(str.charAt(G)+"\t");
-            System.out.print(str.charAt(H)+"\n");
+
+            for(int i=G;i<H;i++){
+                System.out.print(str.charAt(i));
+
+            }
+            System.out.println("");
+
+        }
 
 
         }
     }
-}
+
